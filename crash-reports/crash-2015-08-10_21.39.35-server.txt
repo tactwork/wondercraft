@@ -1,0 +1,33 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 8/10/15 9:39 PM
+Description: Exception in server tick loop
+
+java.lang.RuntimeException: Failed to check session lock, aborting
+	at atm.h(SourceFile:49)
+	at atm.<init>(SourceFile:35)
+	at atj.<init>(SourceFile:19)
+	at atk.a(SourceFile:78)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:231)
+	at ko.i(SourceFile:211)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:421)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Linux (amd64) version 4.1.4-1-ARCH
+	Java Version: 1.7.0_85, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 450860936 bytes (429 MB) / 528154624 bytes (503 MB) up to 1065025536 bytes (1015 MB)
+	JVM Flags: 6 total; -Xmx1024M -Xms512M -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=1 -XX:+AggressiveOpts
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
